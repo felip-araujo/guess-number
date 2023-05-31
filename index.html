@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Hotéis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/hotel-2-svgrepo-com.svg" type="image/x-icon"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu-h"> 
+                <li><a href="#"></a>Gama Hotéis</li>
+                <li><a href="#hoteis">Hoteis Favoritos</a></li>
+                <li><a href="/login/redirect.html">Fazer Login</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                
+            </ul> 
+        </nav>
+    </header> 
+    <main> 
+        <div class="container" id="h-line">
+            <h1>Veja ofertas <span>dos seus sites</span> favoritos!</h1>
+            <p class="texto-l">Procure um destino ou hotel...</p>
+        </div>
+        <div class="conteinar" id="busca">
+            <label for="input-search"><ul> 
+                <li> <a href="#" id="input-1">Todas as opções |</a></li>
+                <li> <a href="#" id="input-1">Hotel |</a></li>
+                <li> <a href="#" id="input-1">Casa/Apartamento</a></li> 
+                <div id="campo"><input type="checkbox"><label> 01 quarto</label>
+                    <input type="checkbox"><label>02 quartos</label>
+                    <input type="checkbox"><label>03 quartos</label> 
+                    <label for="">| Destinos: </label><select name="" id="">
+                        <option value="">Fortaleza</option>
+                        <option value="">São Paulo</option>
+                        <option value="">Ceará</option> 
+                        <option value="">Pernambuco</option> 
+                        <option value="">Gramado</option>
+                        <option value="">Rio de Janeiro</option> 
+                        <option value="">Manaus</option>
+                        <option value="">Bahia</option>
+                        <option value="">Curitiba</option>
+                        <option value="">Minas Gerais</option>
+                    </select> <label for=""> | Qtd Crianças: </label><select> Crianças: 
+                        <option value="">01</option>
+                        <option value="">02</option>
+                        <option value="">03</option>
+                        <option value="">04</option>
+                    </select> 
+                    <label for=""> | Passagens: </label><select name="" id=""> 
+                        <option value="">Somente Ida</option>
+                        <option value="">Volta</option>
+                        <option value="">Ida e Volta</option>
+                    </select> 
+                </div>
+            </ul></label><p></p>
+            <input type="text"id="search-input" placeholder="Digite aqui sua pesquisa..." >
+            <button id="search-button">Buscar</button>
+        </div>
+        <div id="search-results"></div>
+        <section id="fotos">
+            <div class="at1"><h1>Destinos <span>mais procurados</span> pelos nossos hóspedes!</h1></div>
+            <div class="bloc1">
+                <img src="images/gramado-portico.jpg" alt="" class="imagem">
+                <h1 id="titulo">Gramado</h1> 
+                <!-- <i class="far fa-star" id="star"></i> -->
+            </div>
+            <div class="bloc2"> 
+                <img src="images/rio-de-janeiro-cap.jpg" alt="" class="imagem">
+                <h1 id="titulo">Rio de Janeiro</h1>
+                <!-- <i class="far fa-star" id="star"></i> -->
+            </div>
+            <div class="bloc3">
+                <img src="images/manaus.jpg" alt="" class="imagem">
+                <h1 id="titulo">Manaus</h1>
+                <!-- <i class="far fa-star" id="star"></i> -->
+            </div>
+        </div>
+        <div class="bloc3">
+            <img src="images/sao paulo.jpg" alt="" class="imagem">
+            <h1 id="titulo">São Paulo</h1>
+            <!-- <i class="far fa-star" id="star"></i> -->
+        </div> 
+        <div class="bloc3">
+            <img src="images/curitiba.jpg" alt="" class="imagem">
+            <h1 id="titulo">Curitiba</h1>
+            <!-- <i class="far fa-star" id="star"></i> -->
+        </div>
+        <div class="bloc3">
+            <img src="images/pontos-turisticos-de-santa-catarina.jpg" alt="" class="imagem">
+            <h1 id="titulo">Santa Catarina</h1>
+            <!-- <i class="far fa-star" id="star"></i> -->
+        </div>
+            <div><button id="butaum" onclick="openPopup()">Agende agora</button></div>
+        </section>
+        <section id="about">
+            <div class="at1"><h1>Sobre nós</h1></div>
+            <div class="ab1"><p>Bem-vindo ao nosso site de hotéis, onde a excelência e o conforto se encontram para proporcionar a você uma experiência inesquecível. Com uma equipe dedicada e uma ampla gama de serviços, estamos empenhados em oferecer hospedagem de alta qualidade e criar momentos especiais para nossos hóspedes.</p></div>
+            <div class="ab2"><p>Fundada com a visão de ser líder no setor hoteleiro, nossa empresa se destaca por sua abordagem empresarial orientada para o cliente. Valorizamos cada pessoa que entra em nossas instalações e nos esforçamos para superar suas expectativas, garantindo uma estadia agradável e memorável. Nossos hotéis são projetados para atender às necessidades de viajantes de negócios e lazer, proporcionando um ambiente acolhedor e serviços personalizados.
+            </p></div>
+            <div class="ab3"><p>Com uma localização privilegiada e instalações modernas, nossos hotéis oferecem uma variedade de opções de acomodação para atender a diferentes preferências e orçamentos. Desde quartos elegantes e confortáveis até suítes luxuosas, cada espaço foi cuidadosamente projetado para oferecer o máximo de conforto e comodidade aos nossos hóspedes.</p></div>
+            <div class="ab4"><p>Além disso, nos esforçamos para oferecer uma experiência completa em hospitalidade, com serviços e comodidades que vão além do esperado. De restaurantes requintados a espaços de eventos versáteis, nosso objetivo é proporcionar momentos de prazer e relaxamento durante sua estadia conosco.
+            </p></div> 
+            <div><img src="/images/serviço-hotel.jpg" alt="" id="servico"></div>
+            <div><button id="butaum" onclick="openPopup()">Agende agora</button></div>
+        </section>
+          <section id="hoteis">
+            <div class="at1"><h1>Hotéis <span>mais procurados</span> pelos nossos hóspedes!</h1></div>
+            <div class="bloc1">
+                <img src="/images/HOTEL COLLINE DE FRANCE-gramado.jpg" alt="" class="imagem">
+                <h1 id="titulo">Hotel Colline de France</h1> 
+                <!-- <i class="far fa-star" id="star"></i> -->
+            </div>
+            <div class="bloc2"> 
+                <img src="/images/Grand Hyatt Rio de Janeiro.png" alt="" class="imagem">
+                <h1 id="titulo">Hotel Grand Hyatt</h1>
+                <!-- <i class="far fa-star" id="star"></i> -->
+            </div>
+            <div class="bloc3">
+                <img src="/images/Hotel Vila Amazonica - Manaus.jpg" alt="" class="imagem">
+                <h1 id="titulo">Hotel Vila Amazonica</h1>
+                <!-- <i class="far fa-star" id="star"></i> -->
+            </div>
+        </div>
+        <div class="bloc3">
+            <img src="/images/palacio tangará -são pauo.jpg" alt="" class="imagem">
+            <h1 id="titulo">Palácio Tangará</h1>
+            <!-- <i class="far fa-star" id="star"></i> -->
+        </div> 
+        <div class="bloc3">
+            <img src="/images/qoya-hotel-curitiba.jpg" alt="" class="imagem">
+            <h1 id="titulo">Qoya Hotel</h1>
+            <!-- <i class="far fa-star" id="star"></i> -->
+        </div>
+        <div class="bloc3">
+            <img src="/images/a-cabanda-santa-catarina.jpg" alt="" class="imagem">
+            <h1 id="titulo">A Cabanda Hotel</h1>
+            <!-- <i class="far fa-star" id="star"></i> -->
+        </div>
+            <div><button id="butaum" onclick="openPopup()">Agende agora</button></div>
+        </section>
+        <div id="popup" style="display: none;">
+            <h2 id="age">Agendamento</h2>
+            <form>
+              <label for="check-in">Entrada:</label>
+              <input type="date" id="check-in" required><br>
+              <label for="check-out" id="sai">Saída:</label> 
+              <input type="date" id="check-out" required><br>
+              <button onclick="fecharPopUp()" id="fechar">Cancelar</button>
+              <button type="submit" id="reservar">Reservar</button> 
+            </form>
+          </div>  
+    </main>
+    <footer class="foot">
+        <p>&copy; 2023 Gama Hotéis - Todos os direitos reservados.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
